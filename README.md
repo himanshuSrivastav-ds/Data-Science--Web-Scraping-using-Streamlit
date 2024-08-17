@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a web scraping application developed using Streamlit and Python. The application scrapes doctor profiles from Practo based on user-provided location and specialization. It extracts information such as doctor's name, specialization, experience, clinic name, and consultation fees. The results are displayed in a user-friendly format within the Streamlit app.
+This project is a web scraping application developed using Streamlit and Python. The application scrapes doctor profiles from [Practo.com]{https://www.practo.com/} based on user-provided location and specialization. It extracts information such as doctor's name, specialization, experience, clinic name, and consultation fees. The results are displayed in a user-friendly format within the Streamlit app.
 
 ## Installation Instructions
 

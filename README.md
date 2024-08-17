@@ -18,7 +18,7 @@ To set up and run the application, follow these steps:
     pip install beautifulsoup4
     ```
 
-3. **Download the Project**: Clone or download the project repository from [GitHub](https://github.com/your-repo/your-project).
+3. **Download the Project**: Clone or download the project repository from [GitHub](https://github.com/himanshuSrivastav-ds/Data-Science--Web-Scraping-using-Streamlit).
 
 4. **Navigate to the Project Directory**: Open your terminal or command prompt and navigate to the directory where the project files are located.
 

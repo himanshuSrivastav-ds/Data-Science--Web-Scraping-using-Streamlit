@@ -46,6 +46,9 @@ def scrape_practo(location, specialization):
             
             clinic_name_tag = element.find("span", {"data-qa-id": "doctor_clinic_name"})
             clinic_name = clinic_name_tag.text.strip() if clinic_name_tag else "Clinic name not found"
+
+            practice_locality_tag = element.find("span", {"data-qa-id": "practice_locality"})
+            practice_locality = practice_locality_tag.text.strip() if practice_locality_tag else "Practice locality not found"
             
             consultation_fees_tag = element.find("span", {"data-qa-id": "consultation_fee"})
             consultation_fees = consultation_fees_tag.text.strip() if consultation_fees_tag else "Consultation fee not found"
@@ -55,6 +58,7 @@ def scrape_practo(location, specialization):
                 "specialization": specialization_text,
                 "experience": experience,
                 "clinic_name": clinic_name,
+                "practice_locality": practice_locality,
                 "consultation_fees": consultation_fees
             })
         
@@ -178,6 +182,7 @@ with st.container():
                                 <p class="details"><strong>Specialization:</strong> {doctor['specialization']}</p>
                                 <p class="details"><strong>Experience:</strong> {doctor['experience']}</p>
                                 <p class="details"><strong>Clinic Name:</strong> {doctor['clinic_name']}</p>
+                                <p class="details"><strong>Practice Locality:</strong> {doctor['practice_locality']}</p>
                                 <p class="details"><strong>Consultation Fees:</strong> {doctor['consultation_fees']}</p>
                             </div>
                         """, unsafe_allow_html=True)

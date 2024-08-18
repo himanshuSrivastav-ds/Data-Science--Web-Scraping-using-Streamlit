@@ -34,7 +34,7 @@ To set up and run the application, follow these steps:
 
 ## Usage
 
-1. **Open the Application**: After running the command above, your default web browser should automatically open and display the Streamlit app. If not, you can access it at [http://localhost:8501](http://localhost:8510/) in your web browser.
+1. **Open the Application**: After running the command above, your default web browser should automatically open and display the Streamlit app. If not, you can access it at [https://data-science--web-scraping-using-app-6o5aocqjdodfhhnvgg7xnt.streamlit.app/](https://data-science--web-scraping-using-app-6o5aocqjdodfhhnvgg7xnt.streamlit.app/) in your web browser.
 
 2. **Input Location and Specialization**: 
     - In the sidebar, enter the location (e.g., Bangalore) in the text input field.

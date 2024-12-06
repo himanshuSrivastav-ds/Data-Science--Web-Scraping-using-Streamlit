@@ -1,6 +1,5 @@
 import streamlit as st
 import requests
-pip install beautifulsoup
 from bs4 import BeautifulSoup
 import urllib.parse
 
